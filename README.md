@@ -1,5 +1,6 @@
 # hactober_2022
-Do source Code
+Repository for very useful code snippets and algos helping in Data Structures
+
 Hi Srijan you are sexy
 #hacktoberfest-accepted
 Hi Srijan you are good person
