@@ -15,6 +15,14 @@ void selection(int arr[], int n){
 	}
 }
 
+int findPos(int arr[], int n, int ele){
+	for(int i = 0; i < n; i++) {
+		if(arr[i] == ele)
+			return i+1;
+	}
+	return -1;
+}
+
 // function to print the array
 void printArr(int a[], int n){
 	int i;
