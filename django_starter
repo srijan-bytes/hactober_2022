@@ -1,0 +1,1 @@
+django follows model view template structure it has various files like url.py where all url paths are written and views.py where all functions are written
