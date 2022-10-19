@@ -5,3 +5,4 @@ These are the usernames of the coders who have contributed to this project:
 * [Srijan Saxena](https://github.com/srijan-bytes)
 * [Sreemoyee Basu](https://github.com/sreebasu05)
 * [Swati Jindal](https://github.com/Swatijindal08)
+* [Arushi Agarwal](https://github.com/arushi0106)
