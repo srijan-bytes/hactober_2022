@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 // database connection
-mongoose.connect("mongodb://localhost:27017/projectDB", {
+mongoose.connect("mongodb://localhost:27017/hacktoberDB", {
   useNewUrlParser: true
 });
 
