@@ -19,8 +19,7 @@ void print(int arr[N][N])
 // Checks whether it will be
 // legal to assign num to the
 // given row, col
-bool isSafe(int grid[N][N], int row,
-					int col, int num)
+bool isSafe(int grid[N][N], int row, int col, int num)
 {
 
 	// Check if we find the same num
@@ -45,8 +44,7 @@ bool isSafe(int grid[N][N], int row,
 
 	for (int i = 0; i < 3; i++)
 		for (int j = 0; j < 3; j++)
-			if (grid[i + startRow][j +
-							startCol] == num)
+			if (grid[i + startRow][j + startCol] == num)
 				return false;
 
 	return true;

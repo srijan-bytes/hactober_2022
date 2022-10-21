@@ -1,12 +1,13 @@
 
 // C++ program for Merge Sort
 #include <iostream>
+#include <vector>
 using namespace std;
  
 // Merges two subarrays of array[].
 // First subarray is arr[begin..mid]
 // Second subarray is arr[mid+1..end]
-void merge(int array[], int const left, int const mid,
+void merge(vector<int> array, int const left, int const mid,
            int const right)
 {
     auto const subArrayOne = mid - left + 1;
