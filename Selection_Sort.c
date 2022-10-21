@@ -1,5 +1,6 @@
 // libraries included
 #include <stdio.h>
+#include <vector>
 
 // main function for sorting
 void selection(vector<int> arr, int n){
@@ -35,12 +36,12 @@ int main(){
 	int a[] = { 12, 31, 25, 8, 32, 17 };
 	int n = sizeof(a) / sizeof(a[0]);
 
-	printf("Before sorting array elements are - \n");
+	printf("Before sorting array elements are : \n");
 	printArr(a, n);
 
 	selection(a, n);
 
-	printf("\nAfter sorting array elements are - \n");
+	printf("\nAfter sorting array elements are : \n");
 	printArr(a, n);
 
 	return 0;
