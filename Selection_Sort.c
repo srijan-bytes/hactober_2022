@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 // main function for sorting
-void selection(int arr[], int n){
+void selection(vector<int> arr, int n){
 	int i, j, small;
 	for (i = 0; i < n - 1; i++){
 		small = i;
